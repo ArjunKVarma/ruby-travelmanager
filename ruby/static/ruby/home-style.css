@@ -1,0 +1,127 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.header h1 {
+    margin: 0;
+}
+
+.featured-events {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.event {
+    background-color: #ffffff00;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+
+.event h4 {
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+.event p {
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+.event .price {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.event .location {
+    font-size: 14px;
+    color: #666;
+}
+
+.event .date {
+    font-size: 14px;
+    color: #666;
+}
+
+.event .attendees {
+    font-size: 14px;
+    color: #666;
+}
+
+.event .button {
+    display: inline-block;
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin: 10px;
+}
+
+.event .button:hover {
+    background-color: #0056b3;
+}
+
+
+
+.exclusive-deals {
+    background-color: #f5f5f5;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+
+.exclusive-deals h2 {
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+.exclusive-deals .button {
+    display: inline-block;
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-top: 10px;
+}
+
+.exclusive-deals .button:hover {
+    background-color: #0056b3;
+}
+
+.event-image {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+}
+
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer.spin-button {
+  display: none;
+  -webkit-appearance: none;
+  margin: 0;
+}
+

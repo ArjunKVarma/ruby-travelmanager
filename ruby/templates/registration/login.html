@@ -1,0 +1,64 @@
+{% extends "../ruby/layout.html" %}
+{% load static %}
+
+{% block title %}Login{% endblock %}
+{% block style %}
+
+
+<link href="{% static 'ruby/style.css' %}" rel="stylesheet">
+<link href="{% static 'ruby/responsive.css' %}" rel="stylesheet">
+<link href="{% static 'ruby/custom.css' %}" rel="stylesheet">
+<link href="{% static 'ruby/bootstrap.min.css' %}" rel="stylesheet">
+
+
+
+{% endblock %}
+
+{% block body %}
+
+
+<div class="about-box-main">
+    <div class="container" style="margin-top: 5em;">
+        <div class="row">
+            <div class="col-lg-6">
+                <div class="banner-frame"> <img class="img-fluid" src="{% static 'ruby/images/rw.png' %}" alt="" />
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="contact-form-right">
+                    <h2>Welcome Back</h2>
+                    <p>Let the exploration begin !</p>
+                    <form id="contactForm" action="{% url 'login' %}" method="post">
+                        {% csrf_token %}
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="form-group">
+                                    <input type="text" class="form-control" placeholder="Enter Username" required
+                                        name="username" id="username" data-error="Please enter your username">
+                                    <div class="help-block with-errors"></div>
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <div class="form-group">
+                                    <input type="password" placeholder="Enter Password" required name="password"
+                                        id="password" class="form-control">
+                                    <div class="help-block with-errors"></div>
+                                </div>
+                            </div>
+
+                        </div>
+                        <p>Dont have an account? <a href="{% url 'register' %}" class="login-link"
+                                style="color: #007bff;">Register</a></p>
+                        <div class="submit-button text-center">
+                            <button class="btn hvr-hover" id="submit" type="submit">Login</button>
+                            <div id="msgSubmit" class="h3 text-center hidden"></div>
+                            <div class="clearfix"></div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    {% endblock %}

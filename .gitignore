@@ -1,0 +1,6 @@
+*.env
+bin/
+lib/
+rubyvenv/
+*build.sh
+*vercel.json
