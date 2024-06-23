@@ -4,3 +4,4 @@ lib/
 rubyvenv/
 *build.sh
 *vercel.json
+images/
