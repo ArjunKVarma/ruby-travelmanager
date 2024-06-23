@@ -25,9 +25,15 @@ pip install -r requirements.txt
 pip install gdal
 ```
 
-#Images
-<img src="https://github.com/ArjunKVarma/ruby-travelmanager/blob/main/images/home.png" alt="Home image" width="500" height="270"/>
-<img src="drawing.jpg" alt="drawing" width="200" height=""/>
-<img src="drawing.jpg" alt="drawing" width="200" height=""/>
-<img src="drawing.jpg" alt="drawing" width="200" height=""/>
-<img src="drawing.jpg" alt="drawing" width="200" height=""/>
+## Images
+
+
+<img src="https://github.com/ArjunKVarma/ruby-travelmanager/blob/main/images/home.png" alt="Home image" width="500" height="300"/>
+<img src="https://github.com/ArjunKVarma/ruby-travelmanager/blob/main/images/fetd.png" alt="Featured" width="500" height="300"/>
+<img src="https://github.com/ArjunKVarma/ruby-travelmanager/blob/main/images/nb_att.png" alt="Nearby Places" width="500" height="300"/>
+<img src="https://github.com/ArjunKVarma/ruby-travelmanager/blob/main/images/reg.png" alt="Register" width="500" height="300"/>
+<img src="https://github.com/ArjunKVarma/ruby-travelmanager/blob/main/images/evt.png" alt="Details" width="500" height="300"/>
+
+
+## License
+MIT
