@@ -34,6 +34,7 @@ pip install gdal
 <img src="https://github.com/ArjunKVarma/ruby-travelmanager/blob/main/images/reg.png" alt="Register" width="500" height="300"/>
 <img src="https://github.com/ArjunKVarma/ruby-travelmanager/blob/main/images/evt.png" alt="Details" width="500" height="300"/>
 
+Front-End Design © @[ThemeWagon](https://themewagon.com/themes/free-bootstrap-4-html5-ecommerce-website-template-freshshop/) open-source liscense
 
 ## License
 MIT
